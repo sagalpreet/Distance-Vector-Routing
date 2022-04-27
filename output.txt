@@ -1,15 +1,4 @@
-# Distance Vector Routing
 
-## Description
-The program simulates **Distance Vector Routing** algorithm (with **Split Horizon**) for the given network consisting of routers.
-
-## How to Run
-```
-python3 main.py
-```
-
-## Output for the given network
-```
 At time = 0
     --------------------------------
   A |   0A |  1B |  ∞- |  ∞- |  1E |
@@ -94,12 +83,4 @@ At time = 5
 
 
 Stable...
-```
-
-## Assumptions
-- Routing Table is printed in the form of matrix where the column label denotes the router for which routing table is printed next to that.
-
-- Each entry in the matrix given the distance and the next router value.
-
-- The row contains distance from nodes A, B, C, D, E respectively
 
